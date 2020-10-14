@@ -8,7 +8,7 @@ Usage: indent-converter {t2s | s2t} SPACES_PER_TAB EXT ...
        indent-converter --help
 
        {t2s | s2t}     # Mode selection. "Tabs to spaces" or "spaces to tabs".
-       SPACES_PER_TAB  # Specify how many spaces should be transform to a tab. Should be a positive integer.
+       SPACES_PER_TAB  # Specify how many spaces will be transform to a tab. Should be a positive integer.
        EXT ...         # Specify file extensions to process. Must specify at least one. (ex: .js .html)
 ```
 
