@@ -149,7 +149,7 @@ void printUsage() {
 	printf("       indent-converter --help\n\n");
 	printf("       {t2s | s2t}     # Mode selection. \"Tabs to spaces\" or \"spaces to tabs\".\n");
 	printf("       SPACES_PER_TAB  # Specify how many spaces should be transform to a tab. Should be a positive integer.\n");
-	printf("       EXT ...         # Specify file extensions to process. At least one extension should be specified. (ex: .js .html)\n");
+	printf("       EXT ...         # Specify file extensions to process. Must specify at least one. (ex: .js .html)\n");
 }
 
 int main(int argc, char* argv[]) {
